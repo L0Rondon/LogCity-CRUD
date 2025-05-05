@@ -20,7 +20,7 @@
                 <li class="dropdown">
                     <a href="">Cadastro</a>
                     <ul class="dropdown-content">
-                        <li><a href="responsaveis.html">Usuário</a></li>
+                        <li><a href="responsaveis.html">Responsável</a></li>
                         <li><a href="cadastroOni.html">Linha/Ônibus</a></li>
                     </ul>
                 </li>
@@ -37,11 +37,11 @@
             <table id="tabelaLinhas">
                 <thead>
                     <tr>
-                        <th>Nome da Tarefa</th>
+                        <th>Numero da Linha</th>
                         <th>Descrição</th>
-                        <th>Data de Entrega</th>
+                        <th>Data da Inclusão</th>
                         <th>Responsável</th>
-                        <th>Status</th>
+                        <th>Região</th>
                         <th>Ações</th> <!-- Nova coluna de ações -->
                     </tr>
                 </thead>
@@ -75,10 +75,12 @@
                     <!-- Usamos um select para listar os responsáveis -->
 
 
-                    <label for="editarStatus">Status:</label>
+                    <label for="editarStatus">Região:</label>
                     <select id="editarStatus">
-                        <option value="incompleta">Incompleta</option>
-                        <option value="completa">Concluída</option>
+                        <option value="azulclaro">Azul Clara</option>
+                        <option value="vermelho">Vermelha</option>
+                        <option value="verde">Verde</option>
+                        <option value="azulescuro">Azul Escuro</option>
                     </select>
 
 
